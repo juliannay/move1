@@ -79,7 +79,7 @@
                 <field name="OP">GT</field>
                 <value name="A">
                   <block type="sensor_spectrometer" id="128">
-                    <field name="LIGHT">RED</field>
+                    <field name="LIGHT">GREEN</field>
                   </block>
                 </value>
                 <value name="B">
