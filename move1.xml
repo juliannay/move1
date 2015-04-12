@@ -32,7 +32,7 @@
                   <block type="robot_delay" id="213" inline="true">
                     <value name="DELAY">
                       <block type="math_number" id="214">
-                        <field name="NUM">700</field>
+                        <field name="NUM">750</field>
                       </block>
                     </value>
                     <next>
@@ -50,7 +50,7 @@
                                   <block type="robot_delay" id="435" inline="true">
                                     <value name="DELAY">
                                       <block type="math_number" id="436">
-                                        <field name="NUM">700</field>
+                                        <field name="NUM">750</field>
                                       </block>
                                     </value>
                                     <next>
@@ -89,7 +89,7 @@
                   <block type="robot_delay" id="312" inline="true">
                     <value name="DELAY">
                       <block type="math_number" id="313">
-                        <field name="NUM">700</field>
+                        <field name="NUM">750</field>
                       </block>
                     </value>
                     <next>
@@ -107,7 +107,7 @@
                                   <block type="robot_delay" id="452" inline="true">
                                     <value name="DELAY">
                                       <block type="math_number" id="453">
-                                        <field name="NUM">700</field>
+                                        <field name="NUM">750</field>
                                       </block>
                                     </value>
                                     <next>
@@ -209,7 +209,7 @@
                                                   <block type="oled_drawtext" id="346">
                                                     <field name="TEXT">The water is found,</field>
                                                     <next>
-                                                      <block type="oled_setcursor" id="421" inline="true">
+                                                      <block type="oled_setcursor" id="465" inline="true">
                                                         <value name="STARTX">
                                                           <block type="math_number" id="422">
                                                             <field name="NUM">10</field>
@@ -221,8 +221,27 @@
                                                           </block>
                                                         </value>
                                                         <next>
-                                                          <block type="oled_drawtext" id="432">
-                                                            <field name="TEXT">Time for my SPA</field>
+                                                          <block type="oled_drawtext" id="476">
+                                                            <field name="TEXT">My wheels hurt!!</field>
+                                                            <next>
+                                                              <block type="oled_setcursor" id="421" inline="true">
+                                                                <value name="STARTX">
+                                                                  <block type="math_number" id="466">
+                                                                    <field name="NUM">10</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="STARTY">
+                                                                  <block type="math_number" id="467">
+                                                                    <field name="NUM">30</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="oled_drawtext" id="432">
+                                                                    <field name="TEXT">Time for my SPA!!!</field>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
                                                           </block>
                                                         </next>
                                                       </block>
