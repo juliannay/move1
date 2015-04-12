@@ -156,6 +156,29 @@
                                                 <next>
                                                   <block type="oled_drawtext" id="346">
                                                     <field name="TEXT">The water is found</field>
+                                                    <next>
+                                                      <block type="oled_cleardisplay" id="412">
+                                                        <next>
+                                                          <block type="oled_setcursor" id="421" inline="true">
+                                                            <value name="STARTX">
+                                                              <block type="math_number" id="422">
+                                                                <field name="NUM">10</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="STARTY">
+                                                              <block type="math_number" id="423">
+                                                                <field name="NUM">20</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="oled_drawtext" id="432">
+                                                                <field name="TEXT">Time for my SPA</field>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
                                                   </block>
                                                 </next>
                                               </block>
