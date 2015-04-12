@@ -154,25 +154,6 @@
                                             <next>
                                               <block type="oled_drawtext" id="346">
                                                 <field name="TEXT">The water is found</field>
-                                                <next>
-                                                  <block type="oled_setcursor" id="383" inline="true">
-                                                    <value name="STARTX">
-                                                      <block type="math_number" id="384">
-                                                        <field name="NUM">10</field>
-                                                      </block>
-                                                    </value>
-                                                    <value name="STARTY">
-                                                      <block type="math_number" id="385">
-                                                        <field name="NUM">20</field>
-                                                      </block>
-                                                    </value>
-                                                    <next>
-                                                      <block type="oled_drawtext" id="394">
-                                                        <field name="TEXT">&gt;&lt;</field>
-                                                      </block>
-                                                    </next>
-                                                  </block>
-                                                </next>
                                               </block>
                                             </next>
                                           </block>
