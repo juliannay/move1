@@ -138,20 +138,20 @@
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="oled_drawtext" id="346">
-                                        <field name="TEXT">The water is found</field>
+                                      <block type="oled_setcursor" id="363" inline="true">
+                                        <value name="STARTX">
+                                          <block type="math_number" id="364">
+                                            <field name="NUM">10</field>
+                                          </block>
+                                        </value>
+                                        <value name="STARTY">
+                                          <block type="math_number" id="365">
+                                            <field name="NUM">10</field>
+                                          </block>
+                                        </value>
                                         <next>
-                                          <block type="oled_setcursor" id="363" inline="true">
-                                            <value name="STARTX">
-                                              <block type="math_number" id="364">
-                                                <field name="NUM">10</field>
-                                              </block>
-                                            </value>
-                                            <value name="STARTY">
-                                              <block type="math_number" id="365">
-                                                <field name="NUM">10</field>
-                                              </block>
-                                            </value>
+                                          <block type="oled_drawtext" id="346">
+                                            <field name="TEXT">The water is found</field>
                                           </block>
                                         </next>
                                       </block>
